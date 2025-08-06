@@ -1,5 +1,5 @@
-import {memo} from "react";
-import {ItemProps } from "../types/types";
+import { memo } from "react";
+import { ItemProps } from "../types/types";
 
 const Item = ({ boxer, isSelected, onClick, id }: ItemProps) => {
   return (
@@ -19,7 +19,8 @@ const Item = ({ boxer, isSelected, onClick, id }: ItemProps) => {
         Division: {boxer.division}
       </p>
       <p style={{ margin: "0px", paddingBottom: 2.5 }}>
-        Win: <strong>{boxer.win} </strong>Loss: <strong>{boxer.loss} </strong>KOs: <strong>{boxer.kos}</strong>{" "}
+        Win: <strong>{boxer.win} </strong>Loss: <strong>{boxer.loss} </strong>
+        KOs: <strong>{boxer.kos}</strong>{" "}
       </p>
       <p style={{ margin: "0px", paddingBottom: 2.5 }}>
         Total matches: <strong>{boxer.fights}</strong>
