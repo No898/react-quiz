@@ -28,3 +28,6 @@ Feel free to change project structure or refactor any code at will.
 5. Good luck!
 
 // 3 hours
+// m using the index because the data doesn’t include any IDs, and I didn’t want to use the name as a unique key, since that would require checking for duplicates first. An alternative could be using a UUID library, which generates a random string that can be assigned as an ID to each object.
+// I’m aware that relying on the index is not an optimal solution — especially when sorting or modifying the data, where using the index becomes a no-go.
+
